@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+:root{
+    --primary-color: lightcoral;
+    --secondary-color: rgba(0, 0, 0)
+    --tertiary-color: Gainsboro;
+    --quarto-color: rgba(76, 183, 216);
+}
+
+body{
+      background-image: linear-gradient(to right, rgb(122, 86, 223), rgb(76, 183, 216), rgba(145, 42, 241));
+      font-size: Lato, sans-serif;
+}
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;  /*uso a altura e largura e depois venho com o margin 100px  ele não cnetraliza o que faz centralizar é o auto*/
+    background-color: rgba(120, 42, 216, 0.2);
+    /* box-shadow:  5px 5px  5px  var(--tertiary-color) ; ele dar uma sombra no conteudo 1 valor  é em baixo 0 2 valor éda esquerda o 3 valor é asombra o 4 valor é a parte da cima*/ 
+    border-radius: 20px;
+    border: 2px solid  rgba(44, 39, 49, 0.4);
+    box-shadow: 5px 3px 10px rgb(122, 86, 223, 0.9);
+}
+.title{
+    background: var(--quarto-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom:  1px solid black;
+}
+.tipsForm{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.formSelect{
+    width: 180px;
+    padding: 5px 5px 3px 3px;
+    font-size: 14px;
+}
+.formInput{
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px ;
+
+}
+.tamanho{
+    width: 70px;
+    background: white;
+    padding: 5px  8px ;
+}
+.formInput:focus{
+    border: 3px solid rgb(122, 86, 223, 0.9);
+    outline: none;
+}
+.formSubmit{
+text-transform: uppercase;
+font-weight: bold;
+display:block;
+margin: 20px auto;
+background: rgba(63, 179, 224, 0.2);
+border-radius: 8px;
+width: 200px;
+height: 50px;
+font-size: 17px;
+color: rgba(0, 0, 0, 100);
+margin-top: 55px;
+box-shadow:15px 6px 10px  black;
+border: 1px solid rgba(218, 57, 57, 0.5);
+}
+#totalTip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
